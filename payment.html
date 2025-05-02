@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment – Heartbeats in Harmony</title>
+  <link rel="stylesheet" href="styles/payment.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Secure Your Preorder For Only R120</h1>
+      <p class="highlight">Thank you for supporting!</p>
+    </header>
+
+    <section>
+      <p>Make your payment of <strong>R120</strong> to the following account:</p>
+      <div class="bank-info">
+        <p><strong>Bank:</strong> FNB (First National Bank)</p>
+
+        <p><strong>Account Number:</strong> 62802947757</p>
+        <p><strong>Branch Code:</strong> 250655</p>
+        <p><strong>Reference:</strong> MTSA083</p>
+      </div>
+      <p>Once you've made the payment, please confirm below:</p>
+    </section>
+
+    <form action="https://formsubmit.co/shaunmatsetela@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Payment Confirmation for Heartbeats in Harmony" />
+      <input type="text" name="Full Name" placeholder="Full Name" required />
+      <input type="email" name="Email" placeholder="Email Used in Preorder" required />
+      <input type="text" name="Reference Code" placeholder="Reference Code (E.G MTSA083)" required />
+      <textarea name="Message" placeholder="Anything you'd like to add (optional)"></textarea>
+      <button type="submit">Confirm Payment</button>
+    </form>
+
+    <a href="index.html" class="payment-link">← Back to Preorder Page</a>
+
+    <footer>
+      <p>Need help? Contact <strong>shaunmatsetela@gmail.com</strong></p>
+      <p class="legal">Payments are non-refundable. Thank you for supporting local music!</p>
+    </footer>
+  </div>
+
+  <script src="scripts/payment.js"></script>
+</body>
+</html>
